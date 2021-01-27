@@ -24,6 +24,11 @@ public class ArrayListUno {
         arreglo.add(40);
         arreglo.add(50);
         arreglo.add(60);
+        arreglo.add(1000);
+        arreglo.add(6);
+        arreglo.add(50);
+        arreglo.add(110);
+        arreglo.add(6020);
         
         for (int i = 0; i < arreglo.size(); i++) {
             System.out.println(arreglo.get(i));

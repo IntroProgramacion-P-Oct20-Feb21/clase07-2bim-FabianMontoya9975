@@ -13,7 +13,9 @@ import java.util.Arrays;
  * @author reroes
  */
 public class DemoEstructuras {
+    
     public static void main(String[] args) {
+        
         int [] edades = {10, 11, 12, 9, 2, 1};
         ArrayList <Integer> edades2 = new ArrayList<>();
         
@@ -21,8 +23,9 @@ public class DemoEstructuras {
             edades2.add(edades[i]);
         }
         
+        System.out.println(edades);
         System.out.println(edades2);
-        
+        System.out.println(edades2.get(3));
         
 
 
